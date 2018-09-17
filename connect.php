@@ -1,9 +1,9 @@
 <?php
     // Define the server and database details
     $host = "localhost";
-    $user = "jc13342_db";
-    $password = "c*N";
-    $dbname = "jc13342_tutoring";
+    $user = "access";
+    $password = "12345";
+    $dbname = "sto";
 
     // Attempt to connect
     $link = mysqli_connect($host,$user,$password,$dbname)
