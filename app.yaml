@@ -1,6 +1,11 @@
 runtime: php55
 
 handlers:
+
+# Serve home page
+- url: /
+  script: index.php
+  
 # Serve php scripts.
 - url: /(.+\.php)$
   script: \1
@@ -12,5 +17,5 @@ handlers:
   application_readable: true
 
 # Serve stylesheets
-- url: /styles
-  static_dir: styles
+- url: /css
+  static_dir: css
